@@ -93,7 +93,6 @@
 
 .derecha{
     width: 50%;
-    margin-left: 15rem;
     display: flex;
     flex-direction: column;
 }
@@ -151,3 +150,33 @@ footer{
 
 
 /* Modelo Responsive*/
+@media screen and (max-width: 1200px) {
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+}
+
+.boton{
+    text-align: center;
+}
+
+.titulos{
+    text-align: center;
+}
+
+.nombres{
+    font-size: .8rem;
+
+}
+
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+
+  
+
+    }
