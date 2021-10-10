@@ -39,9 +39,9 @@
 }
 
 .logo button:hover {
-    color: #ffee00;
-    box-shadow: 0 0 3px #ffee00;
-    text-shadow: 0 0 3px #ffee00;
+    color: #FFEE7D;
+    box-shadow: 0 0 3px #FFEE7D;
+    text-shadow: 0 0 3px #FFEE7D;
 }
 
 .logo button::before{
@@ -51,7 +51,7 @@
 
 .logo button:hover::before {
     transform: scale(0.5);
-    box-shadow: 0 0 15px #ffee10;
+    box-shadow: 0 0 15px #FFEE7D;
   }
 
 .menu li{
@@ -68,9 +68,9 @@
 }
 
 .menu li a:hover{
-    color: #ffee00;
-    box-shadow: 0 0 3px #ffee00;
-    text-shadow: 0 0 3px #ffee00;
+    color: #FFEE7D;
+    box-shadow: 0 0 3px #FFEE7D;
+    text-shadow: 0 0 3px #FFEE7D;
 }
 
 .animacion{
@@ -94,6 +94,8 @@
 .derecha{
     width: 50%;
     margin-left: 15rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .descripcion{
@@ -105,6 +107,8 @@
     padding: 1rem;
     border-radius: 1.8rem;
     border: none;
+    font-size: 20px;
+    justify-content: center;
 }
 
 .proximos:hover{
@@ -114,3 +118,36 @@
     transition: 0.9s ease;
 }
 
+/*Estilos del footer*/
+
+footer{
+    text-align: center;
+    padding: 2rem 0 1rem;
+}
+
+.nombres{
+    color: #4B5052;
+    font-size: 1.25em;
+}
+
+.listaf li {
+    list-style: none;
+    display: inline;
+    padding: 5px;
+}
+
+.listaf li a{
+    text-decoration: none;
+    color: #4B5052;
+    font-size: 2rem;
+    padding-top: .4rem;
+}
+
+.listaf li a:hover{
+    color: #FFEE7D;
+    text-shadow: 0 0 2px #FFEE7D;
+    transition: .7s ease;
+}
+
+
+/* Modelo Responsive*/
