@@ -6,10 +6,6 @@
     color: white;
 }
 
-a{
-    text-decoration: none;
-}
-
 .wrapper{
     position: relative;
     min-height: 100vh;
@@ -19,6 +15,23 @@ a{
     display: flex;
     flex-direction: column;
     height: 100vh;
+}
+
+.horizontal{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: stretch;
+}
+
+.cajon{
+    display: flex;
+    padding: 0px 10px 0 10px;
+}
+
+footer{
+    text-align: center;
+    padding: 2rem 0 1rem;
 }
 
 .container{
@@ -32,6 +45,7 @@ a{
     font-size: 2rem;
     font-weight: 700;
     color: white;
+    text-decoration: none;
 }
 
 .logo button{
@@ -54,6 +68,7 @@ a{
 
 .menu li a{
     color: white;
+    text-decoration: none;
     font-size: 1.15rem;
     border-radius: 25px;
     padding: 10px;
@@ -63,59 +78,6 @@ a{
     color: #FFEE7D;
     box-shadow: 0 0 3px #FFEE7D;
     text-shadow: 0 0 3px #FFEE7D;
-}
-
-.animacion{
-    border: none;
-    height: 100%;
-    width: 100%;
-}
-
-.contenido{
-    display: flex;
-    height: 100%;
-    width: 100%;
-    align-items: center;
-}
-
-
-
-.izquierda{
-    width: 50%;
-    height: 100%;
-}
-
-.derecha{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-}
-
-.descripcion{
-    max-width: 40rem; 
-}
-
-.proximos{
-    background-color: #77B9E4;
-    padding: 1rem;
-    border-radius: 1.8rem;
-    border: none;
-    font-size: 20px;
-    justify-content: center;
-}
-
-.proximos:hover{
-    background-color: #EF7A8E ;
-    color: black;
-    border-radius: 1.8rem;
-    transition: 0.9s ease;
-}
-
-/*Estilos del footer*/
-
-footer{
-    text-align: center;
-    padding: 2rem 0 1rem;
 }
 
 .nombres{
@@ -130,6 +92,7 @@ footer{
 }
 
 .listaf li a{
+    text-decoration: none;
     color: #4B5052;
     font-size: 2rem;
     padding-top: .4rem;
@@ -140,40 +103,3 @@ footer{
     text-shadow: 0 0 2px #FFEE7D;
     transition: .7s ease;
 }
-
-
-/* Modelo Responsive*/
-@media screen and (max-width: 1200px) {
-
-.contenido{
-    display: flex;
-    flex-direction: column;
-}
-
-.boton{
-    text-align: center;
-}
-
-.titulos{
-    text-align: center;
-}
-
-.caja{
-    color: black;
-}
-
-.nombres{
-    font-size: .8rem;
-
-}
-
-}
-
-
-
-@media screen and (max-width: 800px) {
-
-
-  
-
-    }
