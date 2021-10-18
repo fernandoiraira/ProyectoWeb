@@ -6,6 +6,20 @@
     color: white;
 }
 
+li{
+    list-style: none;
+}
+
+.dia{
+    font-size: 1.5rem;
+}
+
+.cajon i{
+    font-size: 4rem;
+    margin: 2rem 0 2rem 0;
+}
+
+
 .wrapper{
     position: relative;
     min-height: 100vh;
@@ -21,12 +35,14 @@
     display: flex;
     height: 100%;
     width: 100%;
-    align-items: stretch;
 }
 
 .cajon{
     display: flex;
+    flex-direction: column;
     padding: 0px 10px 0 10px;
+    align-items: center;
+    width: 100%;
 }
 
 footer{
